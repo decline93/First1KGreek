@@ -69,17 +69,17 @@
     </encodingDesc>
   <profileDesc>
    <langUsage>
-    <language ident="el">Greek</language>
+    <language ident="grc">Greek</language>
     <language ident="la">Latin</language>
    </langUsage>
   </profileDesc>
   <revisionDesc>
-   <change/>
+   <change who="Daniel Cline" when="2016-06-01">Changed language ident from "el" to "grc." Changed second level div subtype to "commentary" and replaced n="7" with n="1"</change>
   </revisionDesc>
  </teiHeader>
   <text>
     <body><div type="edition" n="urn:cts:greekLit:tlg4102.tlgX01.opp-grc1">
-<div type="textpart" subtype="chapter" n="7">
+<div type="textpart" subtype="commentary" n="1">
 <pb n="171"/>
 <head>ΟΙKΟΥMΕΝΙΟΥ
 ΕΠΙΣΚΟΠΟΥ ΤΡΙΚΚΗΣ ΘΕΣΣΑΛΙΑΣ

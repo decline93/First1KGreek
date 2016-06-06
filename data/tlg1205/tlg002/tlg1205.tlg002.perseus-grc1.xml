@@ -21,24 +21,26 @@
               <date>1857</date>
             </imprint>
           </monogr>
+          <ref target="https://archive.org/details/athenagoraephilo00athe">Internet
+            Archive</ref>
         </biblStruct>
         
         </sourceDesc>
     </fileDesc><encodingDesc>
 <refsDecl n="CTS">
-        <cRefPattern n="section" matchPattern="(.+).(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1']/tei:div[@n='$2']/tei:div[@n='$3'])"/>
-        <cRefPattern n="chapter" matchPattern="(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1']/tei:div[@n='$2'])"/>
-        <cRefPattern n="book" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+        <cRefPattern n="section" matchPattern="(.+).(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:div[@n='$3'])"/>
+        <cRefPattern n="chapter" matchPattern="(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])"/>
+        <cRefPattern n="book" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"/>
       </refsDecl>
 
     </encodingDesc><profileDesc>
       <langUsage>
-	<language ident="la">Latin</language>
-	<language ident="greek">Greek</language>
+	<language ident="lat">Latin</language>
+	<language ident="grc">Greek</language>
       </langUsage>
     </profileDesc></teiHeader>
 
-  <text n="archive.org athenagoraephilo00athe"><body> <div type="edition" n="urn:cts:greekLit:tlg1205.tlg002.perseus-grc1">
+  <text><body> <div type="edition" n="urn:cts:greekLit:tlg1205.tlg002.perseus-grc1">
 <pb xml:id="v.2.p.186"/>
 
 <head>ΑΘΗΝΑΓΟΡΟΥ

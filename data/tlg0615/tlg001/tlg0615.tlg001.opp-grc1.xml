@@ -38,12 +38,12 @@
             </publicationStmt>
             
             <sourceDesc>
-                <listBibl xml:lang="la">
+                <listBibl xml:lang="lat">
                     <biblStruct>
                         <monogr>
                             <editor>
                                 <persName>
-                                    <name xml:lang="la">Gustavus Heylbut</name>
+                                    <name xml:lang="lat">Gustavus Heylbut</name>
                                     <addName xml:lang="de">Gustav Heylbut</addName>
                                 </persName>
                             </editor> 
@@ -58,7 +58,7 @@
                             </imprint>
                             <biblScope unit="volume">19</biblScope>
                         </monogr>
-                        <idno n="https://archive.org/details/commentariaina19pt12akaduoft">Internet Archive</idno>
+                        <ref target="https://archive.org/details/commentariaina19pt12akaduoft">Internet Archive</ref>
                         
                         
                     </biblStruct>
@@ -70,14 +70,14 @@
             <p>The following text is encoded in accordance with EpiDoc standards and with the
                 CTS/CITE Architecture.</p>
           <refsDecl n="CTS">
-        <cRefPattern n="chapter" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+        <cRefPattern n="chapter" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"/>
       </refsDecl>
     </encodingDesc>
         
         <profileDesc>
             <langUsage>
                 <language ident="grc">Greek</language>
-                <language ident="la">Latin</language>
+                <language ident="lat">Latin</language>
             </langUsage>
         </profileDesc>
         

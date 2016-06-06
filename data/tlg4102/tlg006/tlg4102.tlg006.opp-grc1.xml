@@ -39,7 +39,7 @@
    </publicationStmt>
    
    <sourceDesc>
-    <listBibl xml:lang="la">
+    <listBibl xml:lang="lat">
      <biblStruct>
       <monogr>
        <editor>
@@ -55,7 +55,7 @@
        </imprint>
        <biblScope>Volume 2</biblScope>
       </monogr>
-      <idno n="https://archive.org/details/catenaegraecorum02cramuoft">Internet Archive</idno>
+      <ref target="https://archive.org/details/catenaegraecorum02cramuoft">Internet Archive</ref>
      </biblStruct>
     </listBibl>
    </sourceDesc>
@@ -64,13 +64,13 @@
   <encodingDesc>
    <p>The following text is encoded in accordance with EpiDoc standards and with the CTS/CITE Architecture.</p>
     <refsDecl n="CTS">
-        <cRefPattern n="chapter" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+        <cRefPattern n="chapter" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"/>
       </refsDecl>
     </encodingDesc>
   
   <profileDesc>
    <langUsage>
-    <language ident="la">Latin</language>
+    <language ident="lat">Latin</language>
     <language ident="grc">Greek</language>
    </langUsage>
   </profileDesc>

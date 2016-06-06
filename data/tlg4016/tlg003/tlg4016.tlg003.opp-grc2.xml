@@ -38,12 +38,12 @@
             </publicationStmt>
             
             <sourceDesc>
-                <listBibl xml:lang="la">
+                <listBibl xml:lang="lat">
                     <biblStruct>
                         <monogr>
                             <editor>
                                 <persName>
-                                    <name xml:lang="la">Adolfus Busse</name>
+                                    <name xml:lang="lat">Adolfus Busse</name>
                                     <addName xml:lang="de">Adolf Busse</addName>
                                 </persName>
                             </editor> 
@@ -56,7 +56,7 @@
                             </imprint>
                             <biblScope>Volume 4.2</biblScope>
                         </monogr>
-                        <idno n="https://archive.org/details/commentariainari04akaduoft">Internet Archive</idno>
+                        <ref target="https://archive.org/details/commentariainari04akaduoft">Internet Archive</ref>
                         
                         
                     </biblStruct>
@@ -68,14 +68,14 @@
             <p>The following text is encoded in accordance with EpiDoc standards and with the
                 CTS/CITE Architecture.</p>
           <refsDecl n="CTS">
-        <cRefPattern n="chapter" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+        <cRefPattern n="chapter" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"/>
       </refsDecl>
     </encodingDesc>
         
         <profileDesc>
             <langUsage>
                 <language ident="grc">Greek</language>
-                <language ident="la">Latin</language>
+                <language ident="lat">Latin</language>
             </langUsage>
         </profileDesc>
         

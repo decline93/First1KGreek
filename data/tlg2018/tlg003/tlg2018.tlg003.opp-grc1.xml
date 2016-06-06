@@ -40,13 +40,13 @@
         <pubPlace>Germany</pubPlace>
       </publicationStmt>
       <sourceDesc>
-        <listBibl xml:lang="la">
+        <listBibl xml:lang="lat">
           <biblStruct>
             <monogr>
               <title>EUSEBII CAESARIENSIS OPERA.</title>
               <editor>
                 <persName>
-                  <name xml:lang="la">GUILIELMUS DINDORFIUS.</name>
+                  <name xml:lang="lat">GUILIELMUS DINDORFIUS.</name>
                 </persName>
               </editor>
               <author ref="urn:tmp">GUILIELMUS DINDORFIUS.</author>
@@ -64,14 +64,14 @@
     <encodingDesc>
       <p>Text encoded in accordance with the latest EpiDoc standards (January 2014)</p>
       <refsDecl n="CTS">
-        <cRefPattern n="section" matchPattern="(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1']/tei:div[@n='$2'])"/>
-        <cRefPattern n="chapter" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+        <cRefPattern n="section" matchPattern="(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])"/>
+        <cRefPattern n="chapter" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"/>
       </refsDecl>
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident="el">Greek</language>
-        <language ident="la">Latin</language>
+        <language ident="grc">Greek</language>
+        <language ident="lat">Latin</language>
       </langUsage>
     </profileDesc>
     <revisionDesc>

@@ -38,12 +38,12 @@
    </publicationStmt>
    
    <sourceDesc>
-    <listBibl xml:lang="la">
+    <listBibl xml:lang="lat">
      <biblStruct>
       <monogr>
        <editor>
         <persName>
-         <name xml:lang="la">Paulus Wendland</name>
+         <name xml:lang="lat">Paulus Wendland</name>
          <addName xml:lang="de">Paul Wendland</addName>
         </persName>
        </editor> 
@@ -56,7 +56,7 @@
        </imprint>
        <biblScope unit="volume">22.1</biblScope>
       </monogr>
-      <idno n="http://archive.org/stream/p1commentariaina22akaduoft#page/n7/mode/2up">Internet Archive</idno>
+      <ref target="http://archive.org/stream/p1commentariaina22akaduoft#page/n7/mode/2up">Internet Archive</ref>
       
       
      </biblStruct>
@@ -68,14 +68,14 @@
    <p>The following text is encoded in accordance with EpiDoc standards and with the
     CTS/CITE Architecture.</p>
     <refsDecl n="CTS">
-        <cRefPattern n="chapter" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+        <cRefPattern n="chapter" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"/>
       </refsDecl>
     </encodingDesc>
   
   <profileDesc>
    <langUsage>
     <language ident="grc">Greek</language>
-    <language ident="la">Latin</language>
+    <language ident="lat">Latin</language>
    </langUsage>
   </profileDesc>
   

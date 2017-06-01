@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
+<teiHeader xml:lang="eng">
     
 <fileDesc>
 <titleStmt>
-<title>De constructione</title>
+<title xml:lang="lat">De constructione</title>
 <author>Apollonius, Dyscolus</author>
 <editor>Gustav Uhlig</editor>
 <funder>Harvard Library Arcadia Fund</funder>
@@ -49,7 +49,7 @@
 <listBibl>
 <biblStruct>
 <monogr>
-<title>Apollonii Dyscoli quae supersunt</title>
+<title xml:lang="lat">Apollonii Dyscoli quae supersunt</title>
 <editor>
 <persName>
 <name xml:lang="lat">Gustavus Uhlig</name>
@@ -57,8 +57,8 @@
 </editor>
 <author ref="urn:cts:greekLit:tlg0082">Apollonius, Dyscolus</author>
 <imprint>
-<publisher>Lipsiae</publisher>
-<pubPlace>In Aedibus B.G. Teubneri</pubPlace>
+<publisher xml:lang="lat">Lipsiae</publisher>
+<pubPlace xml:lang="lat">In Aedibus B.G. Teubneri</pubPlace>
 <date>1910</date>
 </imprint>
 <biblScope unit="volume">Alterum</biblScope>
@@ -78,6 +78,7 @@
 <profileDesc>
 <langUsage>
 <language ident="grc">Greek</language>
+  <language ident="lat">Latin</language>
 </langUsage>
 </profileDesc>
 <revisionDesc>
